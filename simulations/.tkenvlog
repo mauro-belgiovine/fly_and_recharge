@@ -1,0 +1,25 @@
+---- 20170228-18:26:01 ---------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#652: ptr0x7fe92bd6eaa0 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawNextEventMarker" line 2)
+    invoked from within
+"ModuleInspector:drawNextEventMarker .network.c ptr0x7fe92bd6eaa0 2"
+
+
+Tcl error: moduleinspector.cc#624: ptr0x7fe92bd6eaa0 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:drawMessageOnModule" line 4)
+    invoked from within
+"ModuleInspector:drawMessageOnModule .network.c ptr0x7fe92bd6eaa0 ptr0x7fe93333fdb0"
+
+
